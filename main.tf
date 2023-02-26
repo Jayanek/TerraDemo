@@ -32,7 +32,7 @@ resource "azurerm_container_group" "tfcg_test" {
 
   container {
       name            = "weatherapi"
-      image           = "algomartstoresl/algomart:${var.imagebuild}"
+      image           = "algomartstoresl/myapp:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
 
