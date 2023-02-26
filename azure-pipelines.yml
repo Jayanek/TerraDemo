@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'docker_terra_service'
-        repository: 'algomartstoresl/algomart'
+        repository: 'algomartstoresl/myapp'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
